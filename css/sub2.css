@@ -1,0 +1,96 @@
+.wrap {width: 100%;min-width: 1280px;}
+.inner {width: 100%;margin: auto;}
+
+/* header */
+#header {width: 100%; height: 170px;min-width: 1280px;background: transparent; z-index: 10;position: absolute;}
+#header .header {width: 1380px; height: 100%; position: relative; margin: auto;}
+#header .header h1 {width: 206px;position: absolute; left: 45%; top: 115px;}
+#header .header h1 a {text-align: center;}
+#header .header h1 a img {}
+#header .header .menu {width: 1200px;position:absolute;left:0; top: 120px;}
+#header .header .menu ul {}
+#header .header .menu ul li {float: left;margin-left: 60px;}
+#header .header .menu ul li a {font-weight: 600;color: #ffff;font-size: 20px;}
+#header .header .menu ul li:nth-child(1) {width: 110px;}
+#header .header .menu ul li:nth-child(2) {width: 110px;}
+#header .header .menu ul li:nth-child(3) {width: 110px;margin-right: 250px;}
+#header .header .menu ul li:nth-child(4) {width: 110px;}
+#header .header .menu ul li:nth-child(5) {width: 110px;}
+#header .header .gnb {width: 205px; position: absolute; right: 0; top: 130px;}
+#header .header .gnb ul li {float: left;margin-left: 15px;}
+#header .header .gnb ul li a {font-size: 15px; font-weight: 600;color: #ffff;}
+
+
+
+
+/* footmenu */
+#footer {width: 100%;position: relative;}
+#footer .footer {width: 100%; height: 500px;}
+#footer .footer .aside {width: 900px; height: 150px;
+    background-color:#1a2770;position: relative;opacity: 90%;z-index: 1;
+    }
+#footer .footer .aside .bg {
+    width: 0;
+    height: 0;
+    border-bottom: 80px solid #ffff;
+    border-left: 70px solid transparent;
+    position: absolute;
+    top: 0px; right: 0;
+}
+#footer .footer .aside .logo {}
+#footer .footer .aside .logo img {position: absolute; left: 20%; top: 35px;}
+#footer .footer .aside .logo h2 {position: absolute; left: 35%; top: 45px;font-size: 40px;font-weight: 600;color: #ffff;}
+
+#footer .footer .last {width: 100%; height: 450px;background: #252e59;position: absolute;top:80px;}
+#footer .footer .last .bg {
+    border-bottom: 70px solid #252e59;
+    border-left: 66px solid transparent;
+    border-right: 0px solid transparent;
+    height: 0;
+    width:80px;
+    position: absolute;
+    top: 0px; left: 40%;
+    z-index: 2;
+}
+#footer .footer .last .top {width:100%; height: 330px; position: relative;}
+#footer .footer .last .top ul {width: 700px; height: 250px; position: absolute; top: 150px; left: 20%;}
+#footer .footer .last .top ul li {float: left;border-right: 1.5px solid #999;margin-right: 10px;}
+#footer .footer .last .top ul li:nth-child(3) {border: none;}
+#footer .footer .last .top ul li p {color: #fff; font-size: 15px;  padding-right: 10px;}
+#footer .footer .last .top .plus {color: #ffff;position: absolute; top: 170px; left: 20%;}
+#footer .footer .last .bottom {position: relative;width: 100%; height: 95px; border-top: 1px solid #999;}
+#footer .footer .last .bottom .left {position: absolute; left: 20%; bottom:0;}
+#footer .footer .last .bottom .left img {}
+#footer .footer .last .bottom .right {}
+#footer .footer .last .bottom .right ul {position: absolute; right: 15%; bottom: 20px;}
+#footer .footer .last .bottom .right ul li::after {content: ""; clear: both; display: inline-block; width: 3px; height: 3px; border-radius: 50%; background: #fff;margin-bottom: 4px; margin-left: 10px;}
+#footer .footer .last .bottom .right ul li:last-child::after{display:none}
+#footer .footer .last .bottom .right ul li {color: #ffff;float: left;margin-left: 20px;}
+
+#footer .footer .last .top .family { 
+
+    -webkit-appearance: none;  /* 네이티브 외형 감추기 */
+    -moz-appearance: none;
+    appearance: none;
+    background: url(../icon/icon_down.png) no-repeat 95% 50%;  /* 화살표 모양의 이미지 */
+}
+
+#footer .footer .last .top .family {
+    width: 200px; /* 원하는 너비설정 */
+    padding: .8em .5em; /* 여백으로 높이 설정 */
+    font-family: inherit;  /* 폰트 상속 */
+    background: url('../icon/icon_down.png') no-repeat 95% 50%; background-size: 20px; /* 네이티브 화살표를 커스텀 화살표로 대체 */
+    border: 1px solid #999;
+    border-radius: 0px; /* iOS 둥근모서리 제거 */
+    -webkit-appearance: none; /* 네이티브 외형 감추기 */
+    -moz-appearance: none;
+    appearance: none;
+    position: absolute;
+    top: 150px; right: 15%;
+    color: #fff;
+}
+#footer .footer .last .top .family a {color: #333;}
+#footer .footer .last .top .family option {color: #333;}
+#footer .footer .last .top .family::-ms-expand {
+    display: none;}
+   
